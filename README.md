@@ -14,6 +14,6 @@ The memory applied in this is to get all the cards which have been played previo
      * If there is at least card in list1, take the card with the highest rank to play. 
      * Take the card with the lowest rank in list2. 
      * If both lists are empty, then
-	          * If the opponent plays the Heart card, play the highest-ranking Heart card.
+	    * If the opponent plays the Heart card, play the highest-ranking Heart card.
             * Otherwise, play the highest-ranking card starting with Club. If there is no Club, move to Diamond. If there is no Diamond, move to Spade. However, Queen Spade will be played last.
             * If Heart cards are the remaining on the player's hand, play the highest-ranking Heart card.
